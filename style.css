@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: groove;
+    border-width: 10px;
+    border-color: greenyellow;
+    background-image: url(img/2.jpg);
+}
+.bg_black{background-color: black;}
+.bd_red{border: 5px solid red;}
+.color_white{color: white;}
+.bd_green{border: 5px solid green;}
+.bg_aqua{background-color: rgb(169, 255, 255);}
+.uppercase{text-transform: uppercase;padding: 20px;}
+.italic{font-style: italic;}
+#div1{
+    display: flex;
+    justify-content: space-between;
+}
+#tag1{
+    width: 400px;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 20px;
+    left: 20%;
+    top: 20px ;
+    position: absolute;
+}
+#tag2{
+    width: 400px;
+    border-radius: 40px;
+    padding-top: 20px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    height: 150px;
+    
+}
+#contact{
+    width: 400px;
+    border-radius: 40px;
+    padding-top: 20px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+#circle{
+    max-width: 450px;
+    min-height: 450px;
+    border-radius: 50%;
+    border: 6px solid gray;
+    background-color:rgb(79, 196, 157);
+    text-align: center;
+    padding-top: 8%;
+    text-decoration: underline;
+    line-height: 40px;
+    overflow: hidden;
+    margin: 20px;
+}
+#registration{
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    border: 6px solid red;
+    border-style: dashed;
+    color: red;
+}
+#First_name,#Last_name,#age,#user_email,#user_DOB{
+    text-align: center;
+    height: 30px;
+}
+#button{
+    background-color: transparent;
+    padding:10px 20px;
+    border-radius: 20px;
+    color: blue;
+    border: 1px solid black;
+    margin:5px;
+}
+#menu_title{
+    max-width: 500px;
+    margin: 10px auto;
+    border-radius: 40px;
+    text-align: center;
+    position: relative;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    flex-wrap: wrap
+}
+.box{
+    width: 350px;
+    text-align: center;
+    margin:20px auto;
+    border-radius: 30px;
+}
+.box h1{
+    padding: 20px ;
+}
+#list{
+    padding: 20px 40px;
+    line-height: 20px;
+}
+
+#flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: blue;
+}
